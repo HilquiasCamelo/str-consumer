@@ -25,5 +25,4 @@ public class RabbitMQConfig {
         // Criar a fila com os parâmetros desejados, incluindo a propriedade durable como true
         return new Queue("nome_da_fila", true, false, false);
     }
-
 }

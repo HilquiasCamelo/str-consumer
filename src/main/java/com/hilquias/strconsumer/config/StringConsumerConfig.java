@@ -17,7 +17,6 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class StringConsumerConfig {
 
-
     private final KafkaProperties properties;
 
     /**
